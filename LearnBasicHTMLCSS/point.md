@@ -1,4 +1,4 @@
-# HTML/CSSの基礎を学ぼうテキストの補足
+# HTML/CSSの基礎を学ぼう
 ## <font color="crimson">アジェンダ</font>
 - (1)進捗確認
 - (2)疑問箇所の解消
