@@ -46,7 +46,8 @@
 - 疑似要素の利点
   - 構造とデザインを分離可能
   - 検索エンジンに引っかかる可能性が低い
-    <img src="./test-icon.png">
+    
+    <img src="./test_icon.jpg">
     
     ```
     <ul class="test_list">
@@ -67,23 +68,27 @@
     background-position:  center;           /* 背景画像位置指定 */
     vertical-align:  middle;                /* 上下中央揃え */
     margin-right:  10px;                    /* 右側に間を */
-}
-```
-</ul>
+    }
+    ```
+
 - position
 - display
-- 子孫要素
-- HTML living standard に準拠すべき理由
-- MDM
-- cssのサイズについて
+- HTML living standard に準拠すべき理由(セマンティックなコーディング)
+  - 開発者が読みやすい
+  - 機械が読みやすい
+- cssのサイズについて<br>
+ パターンとしては絶対値基準と相対値基準の2種類
 - widthとheightの使い方の違い
-- margin,padding,content,border
-- 横要素のみはmargin autoが使える
+- margin,padding,content,border<br>
+ 各要素について図で理解できるようにする。<br>
+ 横要素のみはmargin autoが使える。この書き方はよく見かける。
 - website制作で使用する便利ツール
-　- 差分比較difff、Winmerge
+  - 差分比較difff、Winmerge<br>
+    ファイルの差分比較に使う。
   - markup validation service
-  - サクラエディタ
-    
+  - サクラエディタ<br>
+    Javaの開発でよく使われる。メモ帳に似ているが便利な使い方が可能。
+
 ## (4)次回内容の確認/日程調整
 
 
