@@ -71,8 +71,7 @@
     }
     ```
 
-- position
-- display
+- positionとdisplay
 - HTML living standard に準拠すべき理由(セマンティックなコーディング)
   - 開発者が読みやすい
   - 機械が読みやすい
