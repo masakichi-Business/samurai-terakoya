@@ -46,6 +46,8 @@
 - 疑似要素の利点
   - 構造とデザインを分離可能
   - 検索エンジンに引っかかる可能性が低い
+    <img src="./test-icon.png">
+    
     ```
     <ul class="test_list">
     <li class="before_list">リストの先頭に</li>
