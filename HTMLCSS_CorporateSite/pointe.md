@@ -7,3 +7,5 @@ htmlfileから別のhtmlfileへリンク
 インデントをそろえる
 box-shadow: 5px 5px 10px rgba(0,0,0,0.05);
 color:rgb(0,0,0);
+src alt href
+class id 使い分け
