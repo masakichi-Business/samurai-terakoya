@@ -1,0 +1,226 @@
+ /* PC、スマホ共通スタイル */
+ body {
+   font-family: "Source Sans Pro", "Hiragino Kaku Gothic ProN", Meiryo, Arial, sans-serif;
+ }
+ 
+ p {
+   font-size: 15px;
+ }
+
+ /* ===============
+ PC用のスタイル
+ =================*/
+ /* 横幅設定 */
+ body{
+	
+	max-width: 1080px;
+	min-width: 960px;
+	
+	/** margin:0 auto;と同義 **/
+	margin:0 auto 0 auto;
+}
+
+header{
+	display:flex;
+	
+	justify-content: space-between;
+}
+
+#nav-pc{
+	text-align: right;
+	font-size: 14px;
+	padding-top: 15px;
+}
+#nav-pc > a{
+	/*text-decoration系の一括設定*/
+	text-decoration: none;
+	/**/
+	margin-left: 20px;
+}
+#nav-pc > a:link{
+	color:#0d0d0d;
+}
+#nav-pc > a:visited{
+	color:#0d0d0d;
+}
+#nav-pc > a:hover{
+	color:#0d0d0d;
+	text-decoration: uderline;
+}
+#nav-pc > a:active{
+	color:#0d0d0d;
+}
+
+#main-visual{
+	position:relative;
+	height:400px;
+}
+#main-message{
+	position:absolute;
+	top:0;
+	left:0;
+	background-color: #2710d5;
+	color:#ffff;
+	border-radius: 0 0 476px 0;
+	max-width: 620px;
+	height:100%;
+	width:100%;
+	z-index: 11;
+}
+#main-massage > h1{
+	font-size: 60px;
+	font-weight: bold;
+	margin:100px 0 0 50px;
+}
+#main-message > p{
+	font-size: 28px;
+	margin:0 0 0 50px;
+}
+#main-visual > img{
+	max-width: 620px;
+	border-radius: 476px 0 0 0;
+	position:absolute;
+	top:0;
+	right:0;
+	z-index: 10;
+}
+h2{
+	margin:40px 0 0 0;
+}
+h2:after{
+	content:url("images/line.png");
+	margin-left:10px;
+}
+h3{
+	font-size: 27px;
+}
+#mission{
+	margin:80px auto 80px auto;
+	width:100%;
+}
+#mission-flex{
+	width:100%;
+	display:flex;
+}
+#mission-flex > div{
+	width:50%;
+	margin:20px;
+}
+#mission-photo {
+	width:100%;
+}
+#s2dgs {
+	margin-top:50px;
+	width:100%;
+}
+
+/** product=============
+====================**/
+
+#product{
+	background-color:#fafafa;
+	margin:80px 0 80px 0;
+	padding:10px 40px 0px 40px;
+}
+#product > div{
+	margin-top:40px;
+	display:flex;
+}
+#product-left{
+	width:50%;
+	margin-right:20px;
+}
+#product-right{
+	width:50%;
+	margin-left: 20px;
+	margin-top:80px;
+}
+#product-left > div{
+	position:relative;
+	height:480px;
+	margin-right: 20px;
+}
+#product-right > div{
+	position:relative;
+	height:480px;
+	margin-left: 20px;
+}
+#product-photo{
+	width:100%;
+}
+.product-explain{
+	background-color: #ffffff;
+	position:absolute;
+	left:0;
+	top:280px;
+	margin:0 40px 0 40px;
+	padding:20px;
+	box-shadow: 5px 5px 10px rgba(0,0,0,0.05);
+}
+.product-explain > span{
+	color:#2710d5;
+	font-weight:bold;
+	font-size: 16px;
+	margin:0;
+}
+.product-explain > h3{
+	font-size: 20px;
+	margin:5px 0 5px 0;
+}
+
+.product-explain > p{
+	font-size: 14px;
+	margin:0;
+}
+#product-more{
+	margin:0 auto -42px auto;
+}
+/** ==================
+	ABOUT US
+	================== **/
+	
+#aboutus{
+	margin:80px auto 80px auto;
+}
+
+#aboutus > div{
+	display:flex;
+}
+
+.culture-img {
+	width:100%;
+	/* 主軸と交差する軸のどこに配置するか決めるプロパティ */
+	align-self: flex-start;
+}
+
+.culture-img2{
+	margin-top:50px;
+	width:100%;
+}
+
+.culture-table{
+	max-width:500px;
+	margin-right:50px;
+}
+
+.culture-num{
+	font-size:80px;
+	color:#2710d5;
+	margin:0 20px 0 0;
+}
+
+.culture-en{
+	color:#2710d5;
+	font-weight:bold;
+	font-size:24px;
+	display:block;
+}
+
+.culture-jp{
+	font-size:28px;
+	font-weight:bold;
+}
+
+.culture-description{
+	margin:0;
+}
