@@ -12,6 +12,8 @@
     シェアはGoogle chromeがトップ、英語翻訳や拡張機能の利用などが可能
 - ハードウェアとOS
   パソコンの中身
+  https://www.cman.jp/network/support/go_access.cgi
+  https://chrome.google.com/webstore/detail/wappalyzer-technology-pro/gppongmhjkpfnbhagpmjfkannfbllamg?hl=ja
 　CPUとかメモリ、タスクマネージャー
   LANとWAN
   OS
