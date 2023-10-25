@@ -212,3 +212,55 @@ Enter passphrase for key '/home/ec2-user/.ssh/id_rsa':
 - リモートリポジトリへ反映済みの内容を修正
   git revert ［コミットID］
 
+- リモートリポジトリから必要な情報を取得しよう
+  リモートリポジトリから必要な情報を取得するには以下の2パターンがあります。
+  - git fetch→git merge
+    git fetch origin main
+    git merge origin/main
+  - git pull
+    git pull origin main
+- ブランチを使いこなせるようになろう
+  ブランチとは開発を行う際にベースとなるmainブランチから枝分かれしたものです。
+  - git branch
+    // ブランチ名を指定する
+    git branch feature
+    // ブランチ一覧表示
+    git branch
+    //  ブランチ切り替え
+    git checkout feature
+    // ブランチ作成＆切り替え
+    git checkout -b feature
+    // ブランチの変更をプッシュ
+    git push -u origin feature
+　- mainブランチにマージ
+    git checkout main
+    git merge feature
+    // mainブランチへのマージ確認
+    git ls-tree --name-only main
+  - コンフリクト
+- Gitでの作業を退避する方法
+  gitで作業中のファイルなどを退避させたい場合について学習します。
+  - git stash
+    // indexとローカルの変更を退避します
+    git stash push -u -m "わかりやすいメッセージ"
+    // 退避したリスト一覧表示
+    git stash list
+    // 直前のstashだけ復元
+    git stash
+    // indexも含めて復元
+    git stash apply --index
+    // 指定して復元
+    git stash apply stash@{1}
+    // 退避データの削除
+    git stash drop
+    // すべての退避データの削除
+    # すべての退避データを削除する
+    git stash clear
+- プルリクエストを実行しよう
+  プルリクエストとはレビュワーに修正した内容を確認し、mainブランチに取り込んでもらうための依頼のことです。
+  - プルリクまでのステップ
+    ①mainブランチの内容をpullし最新にする
+    ②ブランチを作成する。
+    ③ブランチ内で資材を修正する。
+    ④修正内容をGitHubに反映する。
+    ⑤プルリクエストを依頼する。
