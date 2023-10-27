@@ -3,6 +3,7 @@
   - エンジニアだけでなく他の職種の人とのコミュニケーションが難しい
   - 新しいツールやサービスがでても対応できない。
   - 似たような概念、仕組みを使う技術やサービスは多いが対応できない。
+  例えば、Teamsというアプリを説明する際にlineを知っているからこそlineと比較した説明ができる。
   何をしたらよいか
   - 最低限必要な用語知識の習得
   - 情報の集め方の理解
@@ -15,8 +16,13 @@
   https://www.cman.jp/network/support/go_access.cgi
   https://chrome.google.com/webstore/detail/wappalyzer-technology-pro/gppongmhjkpfnbhagpmjfkannfbllamg?hl=ja
 　CPUとかメモリ、タスクマネージャー
+  CPUとはPCがもつ処理性能のこと。メモリとは情報を1時的に保持する能力。タスクマネージャーとは起動中のアプリやプログラムを監視し、確認、停止させる機能
   LANとWAN
+  LANはlocal area networkと呼ばれ自宅で使用する無線LANのように狭い範囲で使用するネットワークです。
+  WANはworld area networkと呼ばれ世界中と接続できるネットワークです。
+  ちなみにルータにはLANポートとWANポートがあります。
   OS
+  オペレーティングシステムの略。システム全体の管理とアプリケーションの実行を担っている。
   ドメイン
   Linux
 - エディタとターミナル
