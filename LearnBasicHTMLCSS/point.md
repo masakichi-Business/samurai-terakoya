@@ -70,7 +70,7 @@
     display: inline-block;
     margin-right: 30px;
     margin-left: 30px;
-}
+  }
   ```
 
   躓きやすいポイントなので復習を重点的に行う。
