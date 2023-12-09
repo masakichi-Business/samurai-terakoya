@@ -71,7 +71,7 @@
     margin-right: 30px;
     margin-left: 30px;
 }
-```
+  ```
 
   躓きやすいポイントなので復習を重点的に行う。
 - **HTML living standard(HTMLの公式)** に準拠すべき理由(セマンティック(***意図のわかりやすい***)コーディング)
