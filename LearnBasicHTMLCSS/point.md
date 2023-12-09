@@ -57,6 +57,22 @@
     ```
 
 - positionとdisplay
+  display:inline-blockの使い方。横並びにしたい要素に直接適用させる。
+  '''
+  <div class="parent">
+            <p class="child">one</p>
+            <p class="child">two</p>
+            <p class="child">three</p>
+    </div>
+  '''
+  '''
+  .child {
+    display: inline-block;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+'''
+
   躓きやすいポイントなので復習を重点的に行う。
 - **HTML living standard(HTMLの公式)** に準拠すべき理由(セマンティック(***意図のわかりやすい***)コーディング)
   - **開発者**が読みやすい
