@@ -12,6 +12,8 @@
 - 4.SpringBootのプロジェクトを作成しよう
   - Spring initializeで選択するgradleとmaven
     gradleとmavenでビルドファイルの種類と設定が変わる。<br>
+  - spring boot起動時のエラー
+    https://terakoya.sejuku.net/question/detail/33894
   - 各フレームワークやライブラリ
     プロジェクト立ち上げ時だけでなく、開発途中でも追加可能。<br>
 - 5.ビューとコントローラを作成してページを表示しよう
